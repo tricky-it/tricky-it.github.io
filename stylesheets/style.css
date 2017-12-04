@@ -20,7 +20,6 @@ body{
 }
 .web-info{
 	color:#2ecc71;
-	width: 40%; 
 	margin: auto;
 }
 
@@ -33,11 +32,11 @@ body{
 }
 
 .web-info p b{
-	font-size: 300%;
+	font-size: 37px;
 }
 .web-info a{
 	color: #2ecc71;
-	font-size: 300%;
+	font-size: 37px;
 }
 .web-info a:hover{
 	color: #fff;
@@ -58,7 +57,7 @@ body{
 {
 	padding: 0;
 	list-style: none;
-	width: 90%;
+	width: 40%;
 	margin: 25px auto;
 }
 .web-info li{
@@ -257,19 +256,12 @@ hr{
 {
 	.menu{
         display: block;
+    }
 }
+
 @media only screen and (max-width: 650px)
 {
-	.web-info p b
-	{
-		font-size: 200%;
-	}
-	.web-info a{
-		font-size: 200%;
-	}
-	.navbar-list li a{
-		font-size: 
-	}
+
 	.navbar-list li a.icon {
     float: right;
     display: block;
@@ -281,23 +273,20 @@ hr{
 	display: block;
 	padding: 0.5em 0px;
 	}
-	
-
-    }
-    .logo{
-    	padding:2px 2px;
-    }
+	.web-info ul{
+	width: 60%;
+	}
 }
-@media only screen and (max-width: 450px)
+@media only screen and (max-width: 650px)
 {
-	.web-info p 
-	{
-		font-size: 150%;
-	}
-	.web-info a{
-		font-size: 150%;
-	}
-	.meta{
-		font-size: 80%;
+		.web-info ul{
+	width: 80%;
 	}
 }
+@media only screen and (max-width: 320px)
+{
+		.web-info ul{
+	width: 100%;
+	}
+}
+
