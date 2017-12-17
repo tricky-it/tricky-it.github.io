@@ -7,7 +7,7 @@ url('phetsarath_ot.woff') format('woff'),
 url('phetsarath_ot.ttf') format('truetype'),
 url('phetsarath_ot.svg#Phetsarath_OT') format('svg'); 
 font-weight: normal;
-font-style: normal; 
+font-style: normal;
 }
 *{
     -webkit-box-sizing:border-box;
@@ -17,6 +17,24 @@ body{
 	font-family: 'Phetsarath_OT';
     background-color: #1a1e25;
     font-size: 17px;
+    margin: 0;
+}
+.index-page p{
+	font-size: 20px;
+	font-weight: bold;
+}
+.image{
+	width: 100%;
+	max-width: 816px;
+	max-height: 400px;
+}
+blockquote{
+	padding: 10px 20px;
+    font-size: 25px;
+    font-style: italic;
+    color: #000;
+    border-left: 5px solid #2ecc71;
+    background-color: #F9F9f9;
 }
 .web-info{
 	color:#2ecc71;
@@ -156,7 +174,7 @@ body{
 .fa-newspaper-o{
 	color:#3498db;
 }
-.fa-bookmark-o{
+.fa-code{
 	color:#f38;
 }
 .fa-search{
@@ -182,7 +200,8 @@ body{
 
 .row a img{
 	width: 100%;
-	height: auto;
+	max-width: 816px;
+	max-height: 400px;
 }
 .title a{
 	letter-spacing: 4px;
@@ -206,9 +225,17 @@ body{
 }
 .meta{
 	color: #b9b9b9;
+	font-size: 17px;
 }
 .row ul{
 	list-style: none;
+}
+.author{
+	color: #3498db;
+	text-decoration: none;
+}
+.author:hover {
+	color: #555;
 }
 .next-previous{
 	height: 15px;
@@ -222,7 +249,7 @@ body{
 }
 .pagination{
 	float:left;
-	width: 80%;
+	width: 85%;
 	font-size: 1em;
 	color: #2ecc71;
 }
@@ -251,12 +278,16 @@ hr{
 	    width: 100%;
 	}
 
+
 }
 @media only screen and (max-width: 730px)
 {
 	.menu{
         display: block;
     }
+    	.index-page{
+		padding:0;
+	}
 }
 
 @media only screen and (max-width: 650px)
