@@ -16,11 +16,12 @@ font-style: normal;
 body{
 	font-family: 'Phetsarath_OT';
     background-color: #1a1e25;
-    font-size: 17px;
+    font-size: 19px;
+    line-height: 1.8;
     margin: 0;
 }
 .index-page p{
-	font-size: 20px;
+	font-size: 100%;
 	font-weight: bold;
 }
 .image{
@@ -161,7 +162,7 @@ blockquote{
 	text-decoration:none;
 	color: #F9F9f9;
 	font-family: "Phetsarath_OT";
-	font-size: 100%;
+	font-size: 95%;
 	padding: 0 24px;
 }
 .navbar-list li a:hover{
@@ -286,7 +287,7 @@ hr{
         display: block;
     }
     	.index-page{
-		padding:0;
+		padding:15px;
 	}
 }
 
@@ -310,12 +311,16 @@ hr{
 }
 @media only screen and (max-width: 650px)
 {
+		
 		.web-info ul{
 	width: 80%;
 	}
 }
 @media only screen and (max-width: 320px)
 {
+	body{
+		font-size: 95%;
+	}
 		.web-info ul{
 	width: 100%;
 	}
