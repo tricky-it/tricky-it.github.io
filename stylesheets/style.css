@@ -174,19 +174,27 @@ blockquote{
 .fa-home{
 	color: #e74c3c;
 }
-.fa-newspaper-o{
+.fa-free-code-camp{
 	color:#3498db;
 }
 .fa-code{
 	color:#f38;
 }
-.fa-search{
+.fa-apple{
 	color: #04b771;
 }
-
-.fa-id-card
-{
-	color: #fff;
+.link{
+	font-size: 100%;
+    font-weight: bold;
+    color: #2f323a;
+    text-decoration: none
+}
+.link:hover{
+	color: #2ecc71;
+}
+.header-icon{
+	margin: 0px auto;
+	text-align: center;
 }
  			/*menu mobile*/
 
