@@ -216,9 +216,10 @@ blockquote{
 	width: 100%;
 }
 .index-page p img{
-	width: 100%;
+	max-width: 100%;
 	height: auto;	
 }
+
 .title a{
 	letter-spacing: 4px;
 	color: #2f323a;
