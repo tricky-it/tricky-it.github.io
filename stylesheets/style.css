@@ -30,8 +30,6 @@ body{
 .image{
 	margin: auto;
 	width: 100%;
-	max-width: 816px;
-	max-height: 400px;
 }
 blockquote{
 	padding: 10px 20px;
