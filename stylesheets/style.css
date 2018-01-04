@@ -216,14 +216,10 @@ blockquote{
 }
 .row a img{
 	width: 100%;
-	max-width: 800px;
-	max-height: 600px;
 }
 .index-page p img{
 	width: 100%;
-	height: auto;
-	max-width: 800px;
-	max-height: 600px;	
+	height: auto;	
 }
 .title a{
 	letter-spacing: 4px;
