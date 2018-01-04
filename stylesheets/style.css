@@ -28,6 +28,7 @@ body{
 	font-size: 15px;
 }
 .image{
+	margin: auto;
 	width: 100%;
 	max-width: 816px;
 	max-height: 400px;
@@ -47,7 +48,6 @@ blockquote{
 .container{
 	position: relative;
     width: 80%;
-    max-width: 960px;
     margin: 0 auto;
     padding: 0;
 }
@@ -205,7 +205,7 @@ blockquote{
 }
 
 .row{
-	margin: auto;
+	margin: auto 7%;
 
 }
 .index-page p a{
@@ -262,6 +262,7 @@ blockquote{
 
 .share{
 	margin: 36px 0;
+	width: 100%;
 }
 .facebook{
 	font-family: Helvetica;
@@ -301,6 +302,21 @@ hr{
 .btn{
 	margin-top: 15px;
 }
+/*new-article*/
+.latest{
+	width: 100%;
+}
+.new-article{
+	display: block;
+	float: left;
+	width: 30%;
+	padding: 4px 8px;
+	margin-left: 2%;
+}
+.new-article img{
+	width: 100%;
+}
+
 /*footer*/
 .footer{
 	padding: 40px auto;
@@ -344,6 +360,9 @@ hr{
 	}
 	.web-info ul{
 	width: 60%;
+	}
+	.new-article{
+		width: 100%;
 	}
 }
 @media only screen and (max-width: 650px)
