@@ -178,8 +178,11 @@ blockquote{
 .fa-code{
 	color:#f38;
 }
+.fa-android{
+	color: #A4C639;
+}
 .fa-apple{
-	color: #04b771;
+	color: #fff;
 }
 .link{
 	font-size: 100%;
