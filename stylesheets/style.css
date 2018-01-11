@@ -304,6 +304,7 @@ hr{
 .latest{
 	width: 100%;
 }
+
 .new-article{
 	display: block;
 	float: left;
@@ -365,13 +366,15 @@ hr{
 }
 @media only screen and (max-width: 650px)
 {
-		
+	
 		.web-info ul{
+
 	width: 80%;
 	}
 }
 @media only screen and (max-width: 320px)
 {
+	
 	body{
 		font-size: 95%;
 	}
